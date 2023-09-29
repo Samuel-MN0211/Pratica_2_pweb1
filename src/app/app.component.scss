@@ -1,36 +1,35 @@
 .mat-card-simples {
-  background-color: grey; /* Substitua 'yourcolor' pela cor desejada */
+  background-color: grey; 
   margin-top: 10px;
 }
 
 .mat-form-principal {
   margin-left: 5px;
-  margin-right: 5px; /* Espaçamento entre os campos de entrada */
+  margin-right: 5px; 
 }
 
-/* Classes CSS personalizadas para os inputs */
 .nome-input {
-  background-color: #494848; /* Cor de fundo para o campo Nome */
+  background-color: #494848; 
 }
 
 .cpf-input {
-  background-color: #494848; /* Cor de fundo para o campo CPF */
+  background-color: #494848; 
 }
 
 .idade-input {
-  background-color: #494848; /* Cor de fundo para o campo Idade */
+  background-color: #494848; 
 }
 
-/* Layout flexbox para os campos de entrada */
+
 .input-container {
   display: flex;
-  flex-wrap: wrap; /* Para permitir que os campos quebrem para a próxima linha quando não couberem */
+  flex-wrap: wrap; 
   justify-content: space-between;
 }
 
-/* Ajuste de tamanho para o card de inserção de usuário */
+
 .input-card {
   display: inline-block;
-  width: 100%; /* Define a largura igual a 100% */
-  max-width: none; /* Remove a largura máxima para que se estenda por toda a largura */
+  width: 100%; 
+  max-width: none; 
 }
